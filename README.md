@@ -1,3 +1,12 @@
+# 檔案說明
+## main.ipynb
+主要模組。
+## Recoder.py
+資料收集用。依賴於`DrawTablet.py`。需要`pygame`模組。
+## DrawTablet_WithDetection.py
+利用訓練完後的預測器，預測手寫輸入。必須先執行一次`main.ipynb`以獲得預測器。需要`pygame`模組。
+
+寫完字母後按D會輸出預測結果於`Console`。 按`C`會清空當前畫布。
 # 以筆跡偵測字母輸入
 ## Abstract
 希望透過筆順、位移、轉角角度物理數據等判別字母。
